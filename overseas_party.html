@@ -1,0 +1,452 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>OVERSEAS PARTY - 品牌主页</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="https://unpkg.com/lucide@latest"></script>
+</head>
+<body class="min-h-screen bg-[#030305] text-gray-200 font-sans selection:bg-purple-500/30">
+
+    <!-- Dynamic Background Elements -->
+    <div class="fixed inset-0 z-0 pointer-events-none overflow-hidden">
+        <div class="absolute top-[-10%] left-[-10%] w-[40%] h-[40%] bg-purple-900/20 rounded-full blur-[120px]"></div>
+        <div class="absolute bottom-[-10%] right-[-10%] w-[40%] h-[40%] bg-cyan-900/20 rounded-full blur-[120px]"></div>
+        <!-- Tech Grid -->
+        <div class="absolute inset-0 bg-[linear-gradient(rgba(255,255,255,0.02)_1px,transparent_1px),linear-gradient(90deg,rgba(255,255,255,0.02)_1px,transparent_1px)] bg-[size:4rem_4rem] [mask-image:radial-gradient(ellipse_60%_60%_at_50%_50%,#000_10%,transparent_100%)]"></div>
+    </div>
+
+    <!-- Navigation -->
+    <nav id="navbar" class="fixed w-full z-50 transition-all duration-300 bg-transparent py-6">
+        <div class="container mx-auto px-6 md:px-12 flex justify-between items-center">
+            <div class="text-2xl font-bold tracking-tighter text-white">
+                OVERSEAS <span class="bg-clip-text text-transparent bg-gradient-to-r from-cyan-400 via-purple-500 to-pink-500">PARTY</span>
+            </div>
+            <div class="hidden md:flex space-x-8 text-sm font-medium tracking-wide">
+                <a href="#about" class="hover:text-cyan-400 transition-colors">ABOUT</a>
+                <a href="#milestones" class="hover:text-cyan-400 transition-colors">MILESTONES</a>
+                <a href="#services" class="hover:text-cyan-400 transition-colors">SERVICES</a>
+                <a href="#cases" class="hover:text-cyan-400 transition-colors">CASES</a>
+                <a href="#contact" class="hover:text-cyan-400 transition-colors">CONTACT</a>
+            </div>
+        </div>
+    </nav>
+
+    <main class="relative z-10">
+        
+        <!-- Section 1: Hero / About Us -->
+        <section id="about" class="min-h-screen flex items-center pt-20 pb-12">
+            <div class="container mx-auto px-6 md:px-12 relative">
+                <div class="max-w-4xl">
+                    <h2 class="text-cyan-400 font-mono text-sm md:text-base tracking-widest mb-6 uppercase flex items-center">
+                        <span class="w-8 h-px bg-cyan-400 mr-4"></span>
+                        Global Nightlife Culture Agency
+                    </h2>
+                    <h1 class="text-5xl md:text-7xl lg:text-8xl font-black text-white leading-[1.1] mb-8 tracking-tight">
+                        Global Nightlife Culture,<br>
+                        <span class="italic font-light">Powered by</span> 
+                        <span class="bg-clip-text text-transparent bg-gradient-to-r from-cyan-400 via-purple-500 to-pink-500">Technology.</span>
+                    </h1>
+                    
+                    <div class="flex flex-wrap gap-4 mb-10">
+                        <span class="px-5 py-2 rounded-full border border-white/10 bg-white/5 backdrop-blur-sm text-sm font-medium text-gray-300">Culture / 文化</span>
+                        <span class="px-5 py-2 rounded-full border border-white/10 bg-white/5 backdrop-blur-sm text-sm font-medium text-gray-300">Entertainment / 娱乐</span>
+                        <span class="px-5 py-2 rounded-full border border-white/10 bg-white/5 backdrop-blur-sm text-sm font-medium text-gray-300">Technology / 科技</span>
+                    </div>
+
+                    <p class="text-lg md:text-xl text-gray-400 leading-relaxed max-w-3xl mb-12 font-light">
+                        我们是一家深耕全球夜生活文化的创意机构。2023年创立于悉尼，2026年落址国内，业务版图已强势辐射大中华区、澳新与北美市场。
+                        结合以增长为导向的整合营销与 AIGC 创意引擎，我们从悉尼到上海，以文化为媒介，以科技为驱动，与全球合作伙伴共建可持续增长的夜间经济新生态。
+                    </p>
+                </div>
+
+                <!-- Map Connection Visual -->
+                <div class="mt-20 border-t border-white/10 pt-10 flex flex-wrap justify-between items-center gap-8 text-gray-500 font-mono text-sm">
+                    <div class="flex items-center gap-2"><i data-lucide="map-pin" class="w-4 h-4 text-cyan-500"></i> SYDNEY</div>
+                    <div class="h-px bg-gradient-to-r from-transparent via-white/20 to-transparent flex-grow hidden md:block"></div>
+                    <div class="flex items-center gap-2"><i data-lucide="map-pin" class="w-4 h-4 text-purple-500"></i> SHANGHAI</div>
+                    <div class="h-px bg-gradient-to-r from-transparent via-white/20 to-transparent flex-grow hidden md:block"></div>
+                    <div class="flex items-center gap-2"><i data-lucide="map-pin" class="w-4 h-4 text-pink-500"></i> ANZ & NORTH AMERICA</div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Section 2: Milestones -->
+        <section id="milestones" class="py-32 bg-black/50 relative">
+            <div class="container mx-auto px-6 md:px-12">
+                <div class="mb-20">
+                    <h2 class="text-4xl md:text-5xl font-bold text-white mb-4">进化轨迹 <span class="font-light text-gray-500">/ MILESTONES</span></h2>
+                    <p class="text-gray-400">从本地活动品牌进化为跨国娱乐科技机构</p>
+                </div>
+
+                <div class="relative border-l-2 border-purple-500/30 ml-4 md:ml-0 md:space-y-24 space-y-16">
+                    <!-- Milestone 2023 -->
+                    <div class="relative pl-10 md:pl-16 group">
+                        <div class="absolute w-4 h-4 rounded-full bg-black border-2 border-purple-400 left-[-9px] top-2 group-hover:shadow-[0_0_15px_#a855f7] transition-all duration-300"></div>
+                        <div class="flex flex-col md:flex-row gap-6 md:gap-12 items-start">
+                            <div class="md:w-1/4">
+                                <h3 class="text-5xl md:text-6xl font-black text-transparent [-webkit-text-stroke:1px_rgba(255,255,255,0.2)] group-hover:[-webkit-text-stroke:1px_#a855f7] transition-all duration-500">2023</h3>
+                            </div>
+                            <div class="md:w-3/4 bg-white/[0.02] border border-white/5 p-6 rounded-2xl group-hover:bg-white/[0.04] group-hover:border-purple-500/30 transition-all">
+                                <div class="flex items-center gap-3 mb-3 text-purple-400">
+                                    <i data-lucide="map-pin" class="w-6 h-6"></i>
+                                    <h4 class="text-xl font-bold text-white">初创 STARTUP</h4>
+                                </div>
+                                <p class="text-gray-400">于悉尼大学旁 The Lansdowne Hotel 举办首场活动，品牌诞生。</p>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <!-- Milestone 2024 -->
+                    <div class="relative pl-10 md:pl-16 group">
+                        <div class="absolute w-4 h-4 rounded-full bg-black border-2 border-purple-400 left-[-9px] top-2 group-hover:shadow-[0_0_15px_#a855f7] transition-all duration-300"></div>
+                        <div class="flex flex-col md:flex-row gap-6 md:gap-12 items-start">
+                            <div class="md:w-1/4">
+                                <h3 class="text-5xl md:text-6xl font-black text-transparent [-webkit-text-stroke:1px_rgba(255,255,255,0.2)] group-hover:[-webkit-text-stroke:1px_#a855f7] transition-all duration-500">2024</h3>
+                            </div>
+                            <div class="md:w-3/4 bg-white/[0.02] border border-white/5 p-6 rounded-2xl group-hover:bg-white/[0.04] group-hover:border-purple-500/30 transition-all">
+                                <div class="flex items-center gap-3 mb-3 text-purple-400">
+                                    <i data-lucide="activity" class="w-6 h-6"></i>
+                                    <h4 class="text-xl font-bold text-white">扎根 ROOTED</h4>
+                                </div>
+                                <p class="text-gray-400">入驻悉尼 CBD，创立悉尼首家华人嘻哈夜店品牌。</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Milestone 2025 -->
+                    <div class="relative pl-10 md:pl-16 group">
+                        <div class="absolute w-4 h-4 rounded-full bg-black border-2 border-purple-400 left-[-9px] top-2 group-hover:shadow-[0_0_15px_#a855f7] transition-all duration-300"></div>
+                        <div class="flex flex-col md:flex-row gap-6 md:gap-12 items-start">
+                            <div class="md:w-1/4">
+                                <h3 class="text-5xl md:text-6xl font-black text-transparent [-webkit-text-stroke:1px_rgba(255,255,255,0.2)] group-hover:[-webkit-text-stroke:1px_#a855f7] transition-all duration-500">2025</h3>
+                            </div>
+                            <div class="md:w-3/4 bg-white/[0.02] border border-white/5 p-6 rounded-2xl group-hover:bg-white/[0.04] group-hover:border-purple-500/30 transition-all">
+                                <div class="flex items-center gap-3 mb-3 text-purple-400">
+                                    <i data-lucide="users" class="w-6 h-6"></i>
+                                    <h4 class="text-xl font-bold text-white">拓展 EXPANSION</h4>
+                                </div>
+                                <p class="text-gray-400">赋能海内外知名品牌，完成多场品牌活动的悉尼落地。</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Milestone 2026 -->
+                    <div class="relative pl-10 md:pl-16 group">
+                        <div class="absolute w-4 h-4 rounded-full bg-black border-2 border-purple-400 left-[-9px] top-2 group-hover:shadow-[0_0_15px_#a855f7] transition-all duration-300"></div>
+                        <div class="flex flex-col md:flex-row gap-6 md:gap-12 items-start">
+                            <div class="md:w-1/4">
+                                <h3 class="text-5xl md:text-6xl font-black text-transparent [-webkit-text-stroke:1px_rgba(255,255,255,0.2)] group-hover:[-webkit-text-stroke:1px_#a855f7] transition-all duration-500">2026</h3>
+                            </div>
+                            <div class="md:w-3/4 bg-white/[0.02] border border-white/5 p-6 rounded-2xl group-hover:bg-white/[0.04] group-hover:border-purple-500/30 transition-all">
+                                <div class="flex items-center gap-3 mb-3 text-purple-400">
+                                    <i data-lucide="network" class="w-6 h-6"></i>
+                                    <h4 class="text-xl font-bold text-white">跨越 LEAP</h4>
+                                </div>
+                                <p class="text-gray-400">注册国内公司，布局国内活动品牌与国际艺人经纪。</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Milestone 2027 -->
+                    <div class="relative pl-10 md:pl-16 group">
+                        <div class="absolute w-4 h-4 rounded-full bg-black border-2 border-purple-400 left-[-9px] top-2 group-hover:shadow-[0_0_15px_#a855f7] transition-all duration-300"></div>
+                        <div class="flex flex-col md:flex-row gap-6 md:gap-12 items-start">
+                            <div class="md:w-1/4">
+                                <h3 class="text-5xl md:text-6xl font-black text-transparent [-webkit-text-stroke:1px_rgba(255,255,255,0.2)] group-hover:[-webkit-text-stroke:1px_#a855f7] transition-all duration-500">2027</h3>
+                            </div>
+                            <div class="md:w-3/4 bg-white/[0.02] border border-white/5 p-6 rounded-2xl group-hover:bg-white/[0.04] group-hover:border-purple-500/30 transition-all">
+                                <div class="flex items-center gap-3 mb-3 text-purple-400">
+                                    <i data-lucide="zap" class="w-6 h-6 text-cyan-400"></i>
+                                    <h4 class="text-xl font-bold text-white">展望 VISION</h4>
+                                </div>
+                                <p class="text-gray-400">打造亚太级巡演品牌，推动 AI 娱乐应用海外落地。</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Section 3: Core Services -->
+        <section id="services" class="py-32">
+            <div class="container mx-auto px-6 md:px-12">
+                <div class="mb-20 text-center">
+                    <h2 class="text-4xl md:text-5xl font-bold text-white mb-4">核心业务矩阵 <span class="font-light text-gray-500">/ CORE SERVICES</span></h2>
+                    <p class="text-gray-400">文化 × 科技 × 全球夜经济的生态闭环</p>
+                </div>
+
+                <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+                    <!-- Card 1 -->
+                    <div class="bg-gradient-to-b from-white/[0.05] to-transparent border border-white/10 rounded-3xl p-8 hover:border-pink-500/50 hover:shadow-[0_0_30px_rgba(236,72,153,0.1)] transition-all duration-500 relative overflow-hidden group">
+                        <div class="absolute top-0 right-0 p-6 opacity-10 group-hover:opacity-20 transition-opacity">
+                            <i data-lucide="trending-up" class="w-[120px] h-[120px]"></i>
+                        </div>
+                        <div class="w-14 h-14 rounded-2xl bg-pink-500/20 text-pink-500 flex items-center justify-center mb-8">
+                            <i data-lucide="crosshair" class="w-7 h-7"></i>
+                        </div>
+                        <h3 class="text-2xl font-bold text-white mb-2">活动管理与整合营销</h3>
+                        <div class="text-xs font-mono text-pink-400 mb-6 flex flex-wrap gap-2">
+                            <span>VENUE GROWTH</span> • <span>EVENT IP</span> • <span>MARKETING</span>
+                        </div>
+                        <ul class="space-y-4 text-sm text-gray-400 mb-8 relative z-10">
+                            <li class="flex items-start gap-2"><i data-lucide="chevron-right" class="w-4 h-4 text-pink-500 mt-1 shrink-0"></i> <span>引进国际演出，孵化多元活动 IP。</span></li>
+                            <li class="flex items-start gap-2"><i data-lucide="chevron-right" class="w-4 h-4 text-pink-500 mt-1 shrink-0"></i> <span>构建派对品牌矩阵，将活动转化为商业资产。</span></li>
+                            <li class="flex items-start gap-2"><i data-lucide="chevron-right" class="w-4 h-4 text-pink-500 mt-1 shrink-0"></i> <span>结合 AIGC 与社交媒体矩阵驱动长效增长。</span></li>
+                        </ul>
+                    </div>
+
+                    <!-- Card 2 -->
+                    <div class="bg-gradient-to-b from-white/[0.05] to-transparent border border-white/10 rounded-3xl p-8 hover:border-purple-500/50 hover:shadow-[0_0_30px_rgba(168,85,247,0.1)] transition-all duration-500 relative overflow-hidden group">
+                        <div class="absolute top-0 right-0 p-6 opacity-10 group-hover:opacity-20 transition-opacity">
+                            <i data-lucide="globe-2" class="w-[120px] h-[120px]"></i>
+                        </div>
+                        <div class="w-14 h-14 rounded-2xl bg-purple-500/20 text-purple-400 flex items-center justify-center mb-8">
+                            <i data-lucide="music" class="w-7 h-7"></i>
+                        </div>
+                        <h3 class="text-2xl font-bold text-white mb-2">国际艺人经纪与巡演统筹</h3>
+                        <div class="text-xs font-mono text-purple-400 mb-6 flex flex-wrap gap-2">
+                            <span>INTERNATIONAL DJS</span> • <span>TOUR PLANNING</span>
+                        </div>
+                        <ul class="space-y-4 text-sm text-gray-400 mb-8 relative z-10">
+                            <li class="flex items-start gap-2"><i data-lucide="chevron-right" class="w-4 h-4 text-purple-400 mt-1 shrink-0"></i> <span>为国内夜店定制引进国际顶级 DJ 阵容。</span></li>
+                            <li class="flex items-start gap-2"><i data-lucide="chevron-right" class="w-4 h-4 text-purple-400 mt-1 shrink-0"></i> <span>精准匹配场地定位，塑造独特营销话题。</span></li>
+                            <li class="flex items-start gap-2"><i data-lucide="chevron-right" class="w-4 h-4 text-purple-400 mt-1 shrink-0"></i> <span>成熟跨国巡演统筹，极致性价比落地演出。</span></li>
+                        </ul>
+                    </div>
+
+                    <!-- Card 3 -->
+                    <div class="bg-gradient-to-b from-white/[0.05] to-transparent border border-white/10 rounded-3xl p-8 hover:border-cyan-500/50 hover:shadow-[0_0_30px_rgba(6,182,212,0.1)] transition-all duration-500 relative overflow-hidden group">
+                        <div class="absolute top-0 right-0 p-6 opacity-10 group-hover:opacity-20 transition-opacity">
+                            <i data-lucide="cpu" class="w-[120px] h-[120px]"></i>
+                        </div>
+                        <div class="w-14 h-14 rounded-2xl bg-cyan-500/20 text-cyan-400 flex items-center justify-center mb-8">
+                            <i data-lucide="smartphone" class="w-7 h-7"></i>
+                        </div>
+                        <h3 class="text-2xl font-bold text-white mb-2">娱乐科技与海外应用</h3>
+                        <div class="text-xs font-mono text-cyan-400 mb-6 flex flex-wrap gap-2">
+                            <span>TICKETING</span> • <span>AI ENGINE</span> • <span>SOCIAL</span>
+                        </div>
+                        <ul class="space-y-4 text-sm text-gray-400 mb-8 relative z-10">
+                            <li class="flex items-start gap-2"><i data-lucide="chevron-right" class="w-4 h-4 text-cyan-400 mt-1 shrink-0"></i> <span>平移国内极致互联网产品力至海外市场。</span></li>
+                            <li class="flex items-start gap-2"><i data-lucide="chevron-right" class="w-4 h-4 text-cyan-400 mt-1 shrink-0"></i> <span>自主研发点单、票务与同城组局应用矩阵。</span></li>
+                            <li class="flex items-start gap-2"><i data-lucide="chevron-right" class="w-4 h-4 text-cyan-400 mt-1 shrink-0"></i> <span>全面接入 AI 底层技术，打破信息交易壁垒。</span></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Section 4: Case Studies -->
+        <section id="cases" class="py-32 bg-[#050508] border-y border-white/5 relative overflow-hidden">
+            <!-- Subtle Grid Background for Cases -->
+            <div class="absolute inset-0 opacity-[0.03]" style="background-image: radial-gradient(#fff 1px, transparent 1px); background-size: 30px 30px;"></div>
+            
+            <div class="container mx-auto px-6 md:px-12 relative z-10">
+                <div class="mb-24">
+                    <h2 class="text-4xl md:text-5xl font-bold text-white mb-4">标杆案例拆解 <span class="font-light text-gray-500">/ CASE STUDIES</span></h2>
+                    <p class="text-gray-400">将零散的成功经验沉淀为可复制的商业逻辑</p>
+                </div>
+
+                <div class="space-y-32">
+                    <!-- Case 1 -->
+                    <div class="flex flex-col lg:flex-row items-center gap-12 lg:gap-24">
+                        <div class="w-full lg:w-1/2">
+                            <h4 class="text-pink-500 font-mono text-sm tracking-widest mb-4">CASE 01: 场地赋能</h4>
+                            <h3 class="text-3xl font-bold text-white mb-6">定制化场地赋能与<br>业绩倍增计划</h3>
+                            <p class="text-gray-400 mb-6">
+                                <strong class="text-white">“一店一策”：</strong> 针对不同场地的空间布局与目标客群，定制专属市场营销方案。从悉尼大学旁的小型 Livehouse，到 CBD 核心区的商务型夜店，实现差异化精准引流。
+                            </p>
+                            <div class="p-4 bg-white/5 border-l-2 border-pink-500 rounded-r-lg text-sm text-gray-300">
+                                <strong class="text-white">Before:</strong> 零散活动，客流不稳定<br>
+                                <strong class="text-white mt-2 block">After:</strong> 稳定高净值客流，实现场地增值
+                            </div>
+                        </div>
+                        <div class="w-full lg:w-1/2 relative group">
+                            <div class="absolute inset-0 bg-pink-500/20 blur-[100px] rounded-full"></div>
+                            <div class="relative bg-black/50 border border-white/10 rounded-3xl p-10 backdrop-blur-xl text-center">
+                                <p class="text-gray-500 font-mono text-sm mb-4">2025 交付标准：单场酒水营收</p>
+                                <div class="text-6xl md:text-7xl lg:text-8xl font-black text-transparent bg-clip-text bg-gradient-to-b from-white to-pink-500">
+                                    10,000+
+                                </div>
+                                <p class="text-2xl font-bold text-pink-400 mt-2">AUD</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Case 2 -->
+                    <div class="flex flex-col lg:flex-row-reverse items-center gap-12 lg:gap-24">
+                        <div class="w-full lg:w-1/2">
+                            <h4 class="text-purple-400 font-mono text-sm tracking-widest mb-4">CASE 02: 品牌孵化</h4>
+                            <h3 class="text-3xl font-bold text-white mb-6">OVERSEAS NIGHT CLUB<br>品牌孵化与 IP 打造</h3>
+                            <p class="text-gray-400 mb-6">
+                                针对海外华人娱乐市场的断层，成功孵化 OVERSEAS NIGHT CLUB。通过每周迭代的视觉主题、纯正舞池文化塑造及私域社群的长效经营，完成目标客群极速年轻化洗牌。
+                            </p>
+                            <div class="p-4 bg-white/5 border-l-2 border-purple-500 rounded-r-lg text-sm text-gray-300">
+                                <strong class="text-white">Before:</strong> 场地方非黄金时段疲软，客群老化<br>
+                                <strong class="text-white mt-2 block">After:</strong> 盘活冷门时段，成为当地潮流地标
+                            </div>
+                        </div>
+                        <div class="w-full lg:w-1/2 relative">
+                            <div class="absolute inset-0 bg-purple-500/20 blur-[100px] rounded-full"></div>
+                            <div class="relative bg-black/50 border border-white/10 rounded-3xl p-10 backdrop-blur-xl text-center">
+                                <p class="text-gray-500 font-mono text-sm mb-4">品牌势能：周常态稳定客流</p>
+                                <div class="text-6xl md:text-7xl lg:text-8xl font-black text-transparent bg-clip-text bg-gradient-to-b from-white to-purple-500">
+                                    150-300+
+                                </div>
+                                <p class="text-2xl font-bold text-purple-400 mt-2">Weekly Crowd</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Case 3 -->
+                    <div class="flex flex-col lg:flex-row items-center gap-12 lg:gap-24">
+                        <div class="w-full lg:w-1/2">
+                            <h4 class="text-cyan-400 font-mono text-sm tracking-widest mb-4">CASE 03: 跨国巡演</h4>
+                            <h3 class="text-3xl font-bold text-white mb-6">国内顶级 IP 跨境落地<br>与巡演全链路执行</h3>
+                            <p class="text-gray-400 mb-6">
+                                依托强大的海外执行能力与数字化营销网络，为国内顶尖 IP 搭建丝滑的“出海”桥梁。涵盖 TrapCN、PH、DJ Yida 等，深度实现 IP 出海的文化融合与高净值变现。
+                            </p>
+                            <div class="p-4 bg-white/5 border-l-2 border-cyan-400 rounded-r-lg text-sm text-gray-300">
+                                <strong class="text-white">Highlight:</strong> 独家场地合作，单一自有渠道高转化<br>
+                                <strong class="text-white mt-2 block">Result:</strong> 票房售罄，商业价值最大化
+                            </div>
+                        </div>
+                        <div class="w-full lg:w-1/2 relative">
+                            <div class="absolute inset-0 bg-cyan-500/20 blur-[100px] rounded-full"></div>
+                            <div class="relative bg-black/50 border border-white/10 rounded-3xl p-10 backdrop-blur-xl text-center">
+                                <p class="text-gray-500 font-mono text-sm mb-4">高净值变现：场均总销售额</p>
+                                <div class="text-6xl md:text-7xl lg:text-8xl font-black text-transparent bg-clip-text bg-gradient-to-b from-white to-cyan-400">
+                                    20,000+
+                                </div>
+                                <p class="text-2xl font-bold text-cyan-400 mt-2">AUD Average Sales</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Section 5: Business Model -->
+        <section class="py-32 relative">
+            <div class="container mx-auto px-6 md:px-12 text-center">
+                <h2 class="text-4xl md:text-5xl font-bold text-white mb-6">从活动，到生态 <span class="font-light text-gray-500">/ BUSINESS MODEL</span></h2>
+                <p class="text-gray-400 max-w-2xl mx-auto mb-20">
+                    我们的核心竞争力不止于办活动，而在于将夜生活场景转化为可复制、可增长、可技术化运营的商业系统。
+                </p>
+
+                <!-- Flywheel / Pyramid Visual -->
+                <div class="max-w-4xl mx-auto relative">
+                    <div class="absolute inset-0 bg-gradient-to-r from-purple-500/20 via-cyan-500/20 to-pink-500/20 blur-[80px] rounded-full"></div>
+                    
+                    <div class="grid grid-cols-1 md:grid-cols-3 gap-6 relative z-10">
+                        <!-- Pillar 1 -->
+                        <div class="bg-[#0a0a0c] border border-white/10 rounded-2xl p-8 hover:border-white/30 transition-all text-left">
+                            <div class="text-cyan-400 mb-4"><i data-lucide="ticket" class="w-8 h-8"></i></div>
+                            <h3 class="text-xl font-bold text-white mb-2">内容能力</h3>
+                            <p class="text-gray-400 text-sm">国际艺人 / 主题派对 / 青年文化 IP</p>
+                        </div>
+                        
+                        <!-- Pillar 2 -->
+                        <div class="bg-[#0a0a0c] border border-white/10 rounded-2xl p-8 hover:border-white/30 transition-all text-left mt-0 md:-mt-8">
+                            <div class="text-purple-400 mb-4"><i data-lucide="activity" class="w-8 h-8"></i></div>
+                            <h3 class="text-xl font-bold text-white mb-2">运营能力</h3>
+                            <p class="text-gray-400 text-sm">场地管理 / 社群运营 / 巡演统筹 / 品牌招商</p>
+                        </div>
+
+                        <!-- Pillar 3 -->
+                        <div class="bg-[#0a0a0c] border border-white/10 rounded-2xl p-8 hover:border-white/30 transition-all text-left">
+                            <div class="text-pink-500 mb-4"><i data-lucide="cpu" class="w-8 h-8"></i></div>
+                            <h3 class="text-xl font-bold text-white mb-2">科技能力</h3>
+                            <p class="text-gray-400 text-sm">票务系统 / 点单支付 / 同城组局 / AI与AIGC</p>
+                        </div>
+                    </div>
+
+                    <!-- Outcomes -->
+                    <div class="mt-16 pt-16 border-t border-white/10 grid grid-cols-2 md:grid-cols-4 gap-4 text-center text-sm font-medium text-gray-300">
+                        <div class="p-4 bg-white/5 rounded-xl border border-white/5">场地稳定客流</div>
+                        <div class="p-4 bg-white/5 rounded-xl border border-white/5">品牌年轻化触点</div>
+                        <div class="p-4 bg-white/5 rounded-xl border border-white/5">艺人跨境市场</div>
+                        <div class="p-4 bg-white/5 rounded-xl border border-white/5">智慧娱乐体验</div>
+                    </div>
+
+                    <div class="mt-16 text-3xl md:text-5xl font-black italic tracking-tighter">
+                        <span class="bg-clip-text text-transparent bg-gradient-to-r from-cyan-400 via-purple-500 to-pink-500">FROM EVENTS TO ECOSYSTEM.</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Section 6: Contact & Footer -->
+        <section id="contact" class="py-24 bg-black relative border-t border-white/5 overflow-hidden">
+            <!-- Abstract Earth/Lines Background -->
+            <div class="absolute inset-0 opacity-20 pointer-events-none">
+                <svg class="w-full h-full" xmlns="http://www.w3.org/2000/svg">
+                    <defs>
+                        <pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse">
+                            <path d="M 40 0 L 0 0 0 40" fill="none" stroke="rgba(255,255,255,0.1)" stroke-width="1"/>
+                        </pattern>
+                    </defs>
+                    <rect width="100%" height="100%" fill="url(#grid)" />
+                </svg>
+                <div class="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-full max-w-4xl h-[1px] bg-gradient-to-r from-transparent via-cyan-500 to-transparent"></div>
+            </div>
+
+            <div class="container mx-auto px-6 md:px-12 relative z-10 text-center">
+                <div class="mb-16">
+                    <h2 class="text-3xl md:text-5xl font-black text-white mb-6 tracking-tight">
+                        CONNECT THE WORLD.<br>
+                        <span class="bg-clip-text text-transparent bg-gradient-to-r from-cyan-400 via-purple-500 to-pink-500">SYNC THE CULTURE.</span>
+                    </h2>
+                    <p class="text-gray-400 text-lg">
+                        连接世界，同频共振。<br>
+                        以文化为媒介，以科技为驱动，期待与您开启下一场颠覆想象的合作。
+                    </p>
+                </div>
+
+                <div class="flex flex-col md:flex-row justify-center items-center gap-8 mb-24">
+                    <a href="mailto:wiz@overseasparty.com" class="flex items-center gap-3 px-8 py-4 bg-white/5 hover:bg-white/10 border border-white/10 hover:border-cyan-400/50 rounded-full transition-all text-white group">
+                        <i data-lucide="mail" class="w-6 h-6 text-cyan-400 group-hover:scale-110 transition-transform"></i>
+                        <span class="font-mono text-sm">wiz@overseasparty.com</span>
+                    </a>
+                    <div class="flex items-center gap-3 px-8 py-4 bg-white/5 hover:bg-white/10 border border-white/10 hover:border-green-400/50 rounded-full transition-all text-white group cursor-pointer">
+                        <i data-lucide="message-circle" class="w-6 h-6 text-green-400 group-hover:scale-110 transition-transform"></i>
+                        <span class="font-mono text-sm">WeChat: overseasparty</span>
+                    </div>
+                </div>
+
+                <!-- Footer Bottom -->
+                <div class="pt-10 border-t border-white/10 flex flex-col md:flex-row justify-between items-center gap-6">
+                    <div class="text-2xl font-bold tracking-tighter text-white">
+                        OVERSEAS <span class="text-purple-500">PARTY</span>
+                    </div>
+                    <div class="text-gray-500 text-sm font-mono tracking-widest flex gap-4 text-center">
+                        <span>ANZ</span> | <span>GREATER CHINA</span> | <span>NORTH AMERICA</span>
+                    </div>
+                    <div class="text-gray-600 text-xs">
+                        © 2026 Overseas Party. All rights reserved.
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <script>
+        // Initialize Lucide Icons
+        lucide.createIcons();
+
+        // Navbar Scroll Effect
+        const navbar = document.getElementById('navbar');
+        window.addEventListener('scroll', () => {
+            if (window.scrollY > 50) {
+                navbar.classList.remove('bg-transparent', 'py-6');
+                navbar.classList.add('bg-[#030305]/80', 'backdrop-blur-md', 'py-4', 'border-b', 'border-white/5');
+            } else {
+                navbar.classList.add('bg-transparent', 'py-6');
+                navbar.classList.remove('bg-[#030305]/80', 'backdrop-blur-md', 'py-4', 'border-b', 'border-white/5');
+            }
+        });
+    </script>
+</body>
+</html>
